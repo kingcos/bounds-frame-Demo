@@ -12,6 +12,7 @@
 		841A96461E31D7790003361A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841A96441E31D7790003361A /* Main.storyboard */; };
 		841A96481E31D7790003361A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841A96471E31D7790003361A /* Assets.xcassets */; };
 		841A964B1E31D7790003361A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841A96491E31D7790003361A /* LaunchScreen.storyboard */; };
+		84394E2F1E64313E001E82C4 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84394E2E1E64313E001E82C4 /* UpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		841A96471E31D7790003361A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841A964A1E31D7790003361A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841A964C1E31D77A0003361A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84394E2E1E64313E001E82C4 /* UpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				841A96401E31D7790003361A /* AppDelegate.swift */,
 				841A96421E31D7790003361A /* ViewController.swift */,
+				84394E2E1E64313E001E82C4 /* UpdateViewController.swift */,
 				841A96441E31D7790003361A /* Main.storyboard */,
 				841A96471E31D7790003361A /* Assets.xcassets */,
 				841A96491E31D7790003361A /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				841A96431E31D7790003361A /* ViewController.swift in Sources */,
 				841A96411E31D7790003361A /* AppDelegate.swift in Sources */,
+				84394E2F1E64313E001E82C4 /* UpdateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,7 @@
 				841A96511E31D77A0003361A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

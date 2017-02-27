@@ -9,6 +9,24 @@
  - Swift 3.0
  - Xcode 8.2.1
 
+## Update
+
+> 2017.02.27 - CS193p Lecture 04
+
+- 使用 frame & center 来**定位**视图
+- 使用 bounds 来**绘制**视图
+
+### frame.size != bounds.size
+
+- 在视图旋转时，frame 的 size 和 bounds 的 size 将发生分歧，即 frame 的 size 将相对于父视图的坐标系而改变。
+- 该示例已增加，详见 [kingcos/bounds-frame-Demo](https://github.com/kingcos/bounds-frame-Demo) 新增的 Demo。
+
+### redraw
+
+- 默认情况下，UIView 的 bounds 改变时，将不会重新绘制。
+- 设置 Content Mode 为 redraw 即会重新绘制。
+- UIViewContentMode: 内容模式（仅放置在某个位置、比例缩放、重新绘制）
+
 ## 前言
 
 在 iOS 开发中，视图的 bounds 和 frame 是其最基本的属性。两者的类型均为 `CGRect`，即包含原点和宽高信息。那么这两个属性有什么区别和联系呢？为了搞清楚这一点，也为了方便以后的参考，所以总结于此。

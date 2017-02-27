@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     
     func getAAllInfo() {
         frameA.text = "frameA:\t\(redButton.frame.origin.x)\t\(redButton.frame.origin.y)\t\(redButton.frame.size.width)\t\(redButton.frame.size.height)"
-        boundsA.text = "boundsA:\t\(redButton.bounds.origin.x) \(redButton.bounds.origin.y)\t\(redButton.bounds.size.width)\t\(redButton.bounds.size.height)"
+        boundsA.text = "boundsA:\t\(redButton.bounds.origin.x)\t\(redButton.bounds.origin.y)\t\(redButton.bounds.size.width)\t\(redButton.bounds.size.height)"
         centerA.text = "centerA:\t\(redButton.center.x)\t\(redButton.center.y)"
     }
     
